@@ -14,6 +14,7 @@ public class Main {
     Scanner input = new Scanner(System.in);
     // ask for integer
     System.out.println("Which number would you like to check?");
+    // calculations
     int num = input.nextInt();
     int counter = 2;
     while(counter < num){
